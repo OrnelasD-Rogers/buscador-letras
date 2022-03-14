@@ -1,9 +1,9 @@
-*, 
+*,
 *:after,
 *:before {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 li {
@@ -11,7 +11,7 @@ li {
 }
 
 body {
-  background-color: #10161B;
+  background-color: #10161b;
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
 }
@@ -30,7 +30,7 @@ button:focus {
 }
 
 header {
-  background-image: url('https://images.unsplash.com/photo-1506157786151-b8491531f063?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80');
+  background-image: url("https://images.unsplash.com/photo-1506157786151-b8491531f063?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -44,13 +44,13 @@ header {
 }
 
 header::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: rgba(0, 0, 0, .4);
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 header * {
@@ -101,7 +101,7 @@ form button {
   margin: 30px auto;
   max-width: 100%;
   width: 500px;
-  background-color: #10161B;
+  background-color: #10161b;
 }
 
 .song {
@@ -126,19 +126,19 @@ form button {
 }
 
 .warning-message {
-  color: #EA2234;
+  color: #ea2234;
   text-align: center;
 }
 
 .song-artist {
   color: white;
-  opacity: .4;
+  opacity: 0.4;
   max-width: 400px;
 }
 
 .lyrics-container {
   color: white;
-  opacity: .4;
+  opacity: 0.4;
 }
 
 .lyrics {
